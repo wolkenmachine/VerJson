@@ -3,8 +3,9 @@
 A simple microservice that allows you to store and retreive json documents and deals with version control.
 
 ## API
-
+---
 ### Create a document
+
 `POST` /document
 
 **Data Params**
@@ -15,7 +16,9 @@ A simple microservice that allows you to store and retreive json documents and d
 
 `{ id : *document id to use for retreival* }`
 
+---
 ### Retrive a document
+
 `GET` /document/{id}/{version}
 
 **Url Params**
@@ -27,6 +30,7 @@ A simple microservice that allows you to store and retreive json documents and d
 
 `The Json document`
 
+---
 ### Update a document
 `POST` /document/{id}
 
